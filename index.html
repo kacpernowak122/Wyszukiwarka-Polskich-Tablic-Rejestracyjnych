@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Sprawdzanie Rejestracji</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: #fff;
+            padding: 40px;
+        }
+
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        #wynik {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Styl ikonki lampki */
+        .lampka {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background-color: yellow;
+            border-radius: 50%;
+            position: relative;
+            cursor: pointer;
+        }
+
+        /* Tooltip */
+        .lampka:hover::after {
+            content: attr(data-info);
+            position: absolute;
+            bottom: 125%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #222;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            white-space: nowrap;
+            font-size: 14px;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Sprawdź miasto po rejestracji</h2>
+
+<input id="rejestracja" type="text" maxlength="3" placeholder="Np. ELC">
+<br>
+<button onclick="szukaj()">Przeszukaj Bazę Danych</button>
+
+<div id="wynik"></div>
+
+<!-- Dwie ikonki lampki przesunięte na prawo -->
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+    <div class="lampka" data-info="Baza Danych z Rejestracjami nie jest aktualna, przez co nie ma dużej ilosci rejestracji. Lista nie jest odświeżana od 01.01.2026!" style="margin-right: 10px;"></div>
+    <div class="lampka" data-info="Pozdrawia Kacper (: | GitHub: kacpernowak122"></div>
+</div>
+
+
+<script>
+    let baza = {};
+
+    // wczytanie JSON
+    fetch("list.json")
+        .then(response => response.json())
+        .then(data => {
+            baza = data;
+        })
+        .catch(err => {
+            console.error("Błąd wczytywania JSON:", err);
+        });
+
+    function szukaj() {
+        const kod = document.getElementById("rejestracja").value.toUpperCase();
+        const wynik = document.getElementById("wynik");
+
+        if (kod.length < 2) {
+            wynik.textContent = "Wpisz przynajmniej 2 litery.";
+            return;
+        }
+    
+        let pasujace = [];
+
+        /* ===== STANDARDOWE ===== */
+        if (baza?.PL?.standard) {
+            const standard = baza.PL.standard;
+    
+            for (let litera in standard) {
+                const codes = standard[litera].codes;
+                for (let key in codes) {
+                    if (key.startsWith(kod)) {
+                        pasujace.push(
+                            `🟢 ${key}: ${codes[key]} (${standard[litera].województwo})`
+                        );
+                    }
+                }
+            }
+        }
+
+        /* ===== SPECJALNE ===== */
+        if (baza?.special) {
+            const special = baza.special;
+    
+            for (let typ in special) {
+                const entry = special[typ];
+            if (!entry.codes) continue;
+    
+                for (let key in entry.codes) {
+                    if (key.startsWith(kod)) {
+                        pasujace.push(
+                            `🔵 ${key}: ${entry.codes[key]} [${entry.description}]`
+                        );
+                    }
+                }
+            }
+        }
+    
+        if (pasujace.length === 0) {
+            wynik.textContent = "Nie znaleziono wpisu w bazie danych.";
+        } else {
+            wynik.innerHTML = pasujace.join("<br>");
+        }
+    }
+</script>
+
+</body>
+</html>

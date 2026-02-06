@@ -1,0 +1,385 @@
+{
+  "PL": {
+    "description": "Polska – pełne wyróżniki tablic rejestracyjnych",
+    "standard": {
+      "B": {
+        "województwo": "podlaskie",
+        "codes": {
+          "BAU": "augustowski",
+          "BBI": "bielski",
+          "BI": "Białystok (miasto)",
+          "BIA": "białostocki",
+          "BGR": "grajewski",
+          "BHA": "hajnowski",
+          "BKL": "kolneński",
+          "BL": "Łomża (miasto)",
+          "BLM": "łomżyński",
+          "BMN": "moński",
+          "BS": "Suwałki (miasto)",
+          "BSE": "sejneński",
+          "BSI": "siemiatycki",
+          "BSK": "sokólski",
+          "BSU": "suwalski",
+          "BWM": "wysokomazowiecki",
+          "BZA": "zambrowski"
+        }
+      },
+      "C": {
+        "województwo": "kujawsko-pomorskie",
+        "codes": {
+          "CB": "Bydgoszcz (miasto)",
+          "CBR": "brodnicki",
+          "CBY": "bydgoski",
+          "CCH": "chełmiński",
+          "CG": "Grudziądz (miasto)",
+          "CGD": "golubsko-dobrzyński",
+          "CGR": "grudziądzki",
+          "CIN": "inowrocławski",
+          "CLI": "lipnowski",
+          "CMG": "mogileński",
+          "CNA": "nakielski",
+          "CRA": "radziejowski",
+          "CRY": "rypiński",
+          "CS": "świecki",
+          "CSE": "sępoleński",
+          "CT": "Toruń (miasto)",
+          "CTR": "toruński",
+          "CTU": "tucholski",
+          "CWA": "wąbrzeski",
+          "CW": "Włocławek (miasto)",
+          "CWL": "włocławski",
+          "CZN": "żniński"
+        }
+      },
+      "D": {
+        "województwo": "dolnośląskie",
+        "codes": {
+          "DB": "Wałbrzych (miasto)",
+          "DBA": "wałbrzyski",
+          "DBL": "bolesławiecki",
+          "DDZ": "dzierżoniowski",
+          "DGL": "głogowski",
+          "DGR": "górowski",
+          "DJ": "Jelenia Góra (miasto)",
+          "DJA": "jaworski",
+          "DJE": "jeleniogórski",
+          "DKA": "kamiennogórski",
+          "DKL": "kłodzki",
+          "DL": "Legnica (miasto)",
+          "DLB": "lubański",
+          "DLE": "legnicki",
+          "DLU": "lubin",
+          "DLW": "lwówecki",
+          "DMI": "milicki",
+          "DOA": "oławski",
+          "DOL": "oleśnicki",
+          "DPL": "polkowicki",
+          "DSR": "średzki",
+          "DST": "strzeliński",
+          "DSW": "świdnicki",
+          "DTR": "trzebnicki",
+          "DW": "Wrocław (miasto)",
+          "DWL": "wołowski",
+          "DWR": "wrocławski",
+          "DZA": "ząbkowicki",
+          "DZG": "zgorzelecki",
+          "DZL": "złotoryjski"
+        }
+      },
+      "E": {
+        "województwo": "łódzkie",
+        "codes": {
+          "EL": "Łódź (miasto)",
+          "EP": "Piotrków Trybunalski (miasto)",
+          "ES": "Skierniewice (miasto)",
+          "EBR": "brzeziński",
+          "EBE": "bełchatowski",
+          "EKU": "kutnowski",
+          "ELA": "łaski",
+          "ELC": "łęczycki",
+          "ELO": "łódzki wschodni",
+          "ELR": "rawski",
+          "EPD": "poddębicki",
+          "ERA": "radomszczański",
+          "ESI": "sieradzki",
+          "ESK": "skierniewicki",
+          "ETM": "tomaszowski",
+          "EWE": "wieluński",
+          "EZD": "zduńskowolski",
+          "EZH": "zgierski"
+        }
+      },
+      "F": {
+        "województwo": "lubuskie",
+        "codes": {
+          "FG": "Gorzów Wielkopolski (miasto)",
+          "FGR": "gorzowski",
+          "FKR": "krośnieński",
+          "FMI": "międzyrzecki",
+          "FNA": "nowosolski",
+          "FSB": "słubicki",
+          "FSL": "świebodziński",
+          "FSW": "wschowski",
+          "FZG": "zielonogórski",
+          "FZA": "żagański",
+          "FZL": "żarski"
+        }
+      },
+      "G": {
+        "województwo": "pomorskie",
+        "codes": {
+          "GD": "Gdańsk (miasto)",
+          "GA": "Gdynia (miasto)",
+          "GSP": "Sopot (miasto)",
+          "GS": "Słupsk (miasto)",
+          "GBY": "bytowski",
+          "GCH": "chojnicki",
+          "GCZ": "człuchowski",
+          "GDA": "gdański",
+          "GKA": "kartuski",
+          "GKS": "kościerski",
+          "GKW": "kwidzyński",
+          "GLE": "lęborski",
+          "GMB": "malborski",
+          "GND": "nowodworski",
+          "GPU": "pucki",
+          "GST": "starogardzki",
+          "GSZ": "sztumski",
+          "GSL": "słupski",
+          "GTC": "tczewski",
+          "GWE": "wejherowski"
+        }
+      },
+      "K": {
+        "województwo": "małopolskie",
+        "codes": {
+          "KR": "Kraków (miasto)",
+          "KRA": "krakowski",
+          "KT": "Tarnów (miasto)",
+          "KTA": "tarnowski",
+          "NS": "Nowy Sącz (miasto)",
+          "NSA": "nowosądecki",
+          "NK": "Nowy Targ (powiat)",
+          "KCH": "chrzanowski",
+          "KGA": "gorlicki",
+          "KLI": "limanowski",
+          "KMY": "myślenicki",
+          "KNT": "nowotarski",
+          "KOL": "olkuski",
+          "KPR": "proszowicki",
+          "KSU": "suski",
+          "KTT": "tatrzański",
+          "KZA": "zakopiański"
+        }
+      },
+      "L": {
+        "województwo": "lubelskie",
+        "codes": {
+          "LU": "Lublin (miasto)",
+          "LBI": "bialski",
+          "LBL": "łukowski",
+          "LBM": "biłgorajski",
+          "LCH": "chełmski",
+          "LHR": "hrubieszowski",
+          "LKA": "kraśnicki",
+          "LLE": "łęczyński",
+          "LUB": "lubelski",
+          "LWM": "włodawski",
+          "LZA": "zamojskie",
+          "LZO": "zamość (miasto)"
+        }
+      },
+      "N": {
+        "województwo": "warmińsko-mazurskie",
+        "codes": {
+          "NO": "Olsztyn (miasto)",
+          "NBA": "olsztyński",
+          "NGO": "gołdapski",
+          "NKA": "kętrzyński",
+          "NMR": "mrągowski",
+          "NOL": "olsztyński",
+          "NST": "szczycieński",
+          "NWG": "węgorzewski"
+        }
+      },
+      "O": {
+        "województwo": "opolskie",
+        "codes": {
+          "OP": "Opole (miasto)",
+          "OB": "brzeski",
+          "OGL": "głubczycki",
+          "OK": "kędzierzyńsko-kozielski",
+          "OKL": "kluczborski",
+          "OKR": "krapkowicki",
+          "ONA": "namysłowski",
+          "ONY": "nyski",
+          "OOL": "oleski",
+          "OPO": "opolski",
+          "OPR": "prudnicki",
+          "OST": "strzelecki"
+        }
+      },
+      "P": {
+        "województwo": "wielkopolskie",
+        "codes": {
+          "PO": "Poznań (miasto)",
+          "PL": "Leszno (miasto)",
+          "PK": "Kalisz (miasto)",
+          "PN": "Konin (miasto)",
+          "PPI": "piński",
+          "PWR": "wrzesiński",
+          "PSR": "średzki",
+          "PCH": "chodzieski",
+          "PCT": "czarnkowsko-trzcianecki",
+          "PGN": "gnieźnieński",
+          "PGS": "gostyński",
+          "PKA": "kaliski",
+          "PNO": "nowotomyski",
+          "PSL": "szamotulski",
+          "PTA": "turkowski"
+        }
+      },
+      "R": {
+        "województwo": "podkarpackie",
+        "codes": {
+          "RZ": "Rzeszów (miasto)",
+          "RDE": "dębicki",
+          "RSA": "rzeszowski",
+          "RKA": "krośnieński",
+          "RLE": "leski",
+          "RMI": "mielecki",
+          "RPR": "przemyski",
+          "RSW": "stalowowolski",
+          "RTU": "tarnobrzeski",
+          "YJS": "jasielski"
+        }
+      },
+      "S": {
+        "województwo": "śląskie",
+        "codes": {
+          "SO": "Oświęcim (powiat)",
+          "SB": "Bielsko-Biała (miasto)",
+          "SC": "Częstochowa (miasto)",
+          "SD": "Dąbrowa Górnicza (miasto)",
+          "SE": "Sosnowiec (miasto)",
+          "SG": "Rybnik (miasto)",
+          "SK": "Katowice (miasto)",
+          "SL": "Gliwice (miasto)",
+          "SM": "Bieruńsko-Lędziński",
+          "SP": "Częstochowski",
+          "SR": "Raciborski",
+          "ST": "Tarnogórski",
+          "SBL":"Bieruńsko-lędziński",
+          "SCZ": "częstochowski",
+          "SRC": "raciborski"
+        }
+      },
+      "T": {
+        "województwo": "świętokrzyskie",
+        "codes": {
+          "TK": "Kielce (miasto)",
+          "TAR": "starachowicki",
+          "TOS": "ostrowiec",
+          "TOP": "kunów",
+          "TBS": "buski",
+          "TCH": "chęciński",
+          "TPA": "pińczowski",
+          "TRL": "konecki",
+          "TSK": "skarżyski"
+        }
+      },
+"W": {
+  "województwo": "mazowieckie",
+  "codes": {
+    "WA": "Warszawa Białołęka",
+    "WB": "Warszawa Bemowo",
+    "WE": "Warszawa Mokotów",
+    "WF": "Warszawa Praga Południe",
+    "WH": "Warszawa Praga Północ",
+    "WI": "Warszawa Śródmieście",
+    "WJ": "Warszawa Targówek",
+    "WN": "Warszawa Ursynów",
+    "WO": "Ostrołęka (miasto)",
+    "WP": "Płock (miasto)",
+    "WR": "Radom (miasto)",
+    
+    "WG": "powiat garwoliński",
+    "WL": "powiat legionowski",
+    "WM": "powiat miński",
+    "WN": "powiat nowodworski",
+    "WOT": "powiat otwocki",
+    "WPI": "powiat piaseczyński",
+    "WPN": "powiat pruszkowski",
+    "WPR": "powiat przysuski",
+    "WRU": "powiat radomski",
+    "WSI": "powiat sierpecki",
+    "WSK": "powiat sokołowski",
+    "WSZ": "powiat szczycieński",
+    "WTZ": "powiat tworkowski",
+    "WWO": "powiat wołomiński",
+    "WZ": "powiat żuromiński",
+    "WZY": "powiat zwoleński",
+    "WMA": "powiat makowski",
+    "WMI": "powiat mławski",
+    "WCI": "powiat ciechanowski",
+    "WGR": "powiat grójecki",
+    "WOS": "powiat ostrowski"
+        }
+      },
+      "Z": {
+        "województwo": "zachodniopomorskie",
+        "codes": {
+          "ZS": "Szczecin (miasto)",
+          "ZDR": "drawski",
+          "ZGD": "goleniowski",
+          "ZKL": "koszaliński",
+          "ZPY": "policki",
+          "ZST": "stargardzki"
+        }
+      }
+    }
+  },
+  "special": {
+    "diplomatic": {
+      "description": "Tablice dyplomatyczne (niebieskie tło)",
+      "codes": {
+        "001-199": "Prywatne pojazdy personelu dyplomatycznego",
+        "200-299": "Attaché wojskowy",
+        "300-499": "Personel niedyplomatyczny",
+        "500-699": "Służbowe ambasady i konsulaty",
+        "700-899": "Konsulaty – personel prywatny",
+        "900-999": "Konsulaty – służbowe"        
+      }
+    },
+    "service": {
+      "description": "Służby państwowe",
+      "codes": {
+        "HA#": "Centralne Biuro Antykorupcyjne",
+        "HB#": "Biuro Ochrony Rządu",
+        "HC#": "Służba Celno-Skarbowa",
+        "HP#": "Policja",
+        "HW#": "Straż Graniczna",
+        "HK#": "Agencje specjalne"
+      }
+    },
+    "military": {
+      "description": "Wojskowe – zaczynają się od U",
+      "codes": {
+        "UA": "samochody specjalne",
+        "UB": "transportery opancerzone",
+        "UC": "ciężarówki wojskowe",
+        "UD": "autobusy",
+        "UK": "motocykle"
+      }
+    },
+    "oldtimer": {
+      "description": "Tablice zabytkowe (czarne na żółtym tle)"
+    },
+    "electric": {
+      "description": "Tablice ekologiczne – zielone tło"
+    },
+    "temporary": {
+      "description": "Tablice tymczasowe (żółte tło)"
+    }
+  }
+}
