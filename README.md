@@ -22,6 +22,7 @@ git clone https://github.com/kacpernowak122/Wyszukiwarka-Polskich-Tablic-Rejestr
 
 ## Jak używać lokalnie
 
-Jeśli posiadasz python, wpisz ```python -m http.server```, jeśli masz Node.js, wtedy ```npx serve .```
+Jeśli posiadasz python, wpisz ```python -m http.server``` i wejdź na http://localhost:8000 w twojej przeglądarce,
+jeśli masz Node.js, wtedy ```npx serve .``` http://localhost:5000 lub twoje IP.
 
 A jeśli posiadasz obydwa, wybór należy do ciebie :D
