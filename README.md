@@ -17,9 +17,11 @@ Prosty projekt w HTML/JS, który pozwala sprawdzić miasto lub powiat po **polsk
 1. Sklonuj repozytorium:
 
 ```bash
-git clone https://github.com/kacpernowak122/Wyszukiwarka-Polskich-Tablic-Rejestracyjnych.git```
+git clone https://github.com/kacpernowak122/Wyszukiwarka-Polskich-Tablic-Rejestracyjnych.git
+```
 
 ## Jak używać lokalnie
 
-Jeśli posiadasz python, wpisz ```python -m http.server```
+Jeśli posiadasz python, wpisz ```python -m http.server```, jeśli masz Node.js, wtedy ```npx serve .```
 
+A jeśli posiadasz obydwa, wybór należy do ciebie :D
