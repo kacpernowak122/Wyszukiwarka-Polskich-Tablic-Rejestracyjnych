@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Wyszukiwarka Rejestracji</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Sprawdź miasto po rejestracji</h2>
+
+<input id="rejestracja" type="text" maxlength="3" placeholder="Np. ELC">
+<br>
+<button onclick="szukaj()">Przeszukaj Bazę Danych</button>
+
+<div id="wynik"></div>
+
+<!-- Dwie ikonki lampki przesunięte na prawo -->
+<div class="lampki-container">
+    <div class="lampka" data-info="Baza Danych z Rejestracjami nie jest aktualna, przez co nie ma dużej ilosci rejestracji. Lista nie jest odświeżana od 01.01.2026!" style="margin-right: 10px;"></div>
+    <div class="lampka" data-info="Pozdrawia Kacper (: | GitHub: kacpernowak122"></div>
+    <div class="lampka" data-info="Uwaga! Serwis pokazuje jedynie województwo i miasto, nie pokazuje żadnych danych osobowych!"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

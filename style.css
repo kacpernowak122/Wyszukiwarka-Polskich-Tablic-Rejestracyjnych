@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+    padding: 40px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#wynik {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Styl ikonki lampki */
+.lampka {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Tooltip */
+.lampka:hover::after {
+    content: attr(data-info);
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #222;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 14px;
+    z-index: 10;
+}
+
+/* Kontener dla lampek */
+.lampki-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
