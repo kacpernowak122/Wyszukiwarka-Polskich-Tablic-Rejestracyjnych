@@ -222,7 +222,7 @@
       "P": {
         "województwo": "wielkopolskie",
         "codes": {
-          "PO": "Poznań (miasto)",
+          "PY": "Poznań (miasto)",
           "PL": "Leszno (miasto)",
           "PK": "Kalisz (miasto)",
           "PN": "Konin (miasto)",
@@ -383,3 +383,4 @@
     }
   }
 }
+
